@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+<!--    <shortcut-->
+<!--        android:enabled="true"-->
+<!--        android:icon="@drawable/common_google_signin_btn_icon_dark"-->
+<!--        android:shortcutDisabledMessage="@string/app_name"-->
+<!--        android:shortcutId="turantpe"-->
+<!--        android:shortcutLongLabel="@string/app_name"-->
+<!--        android:shortcutShortLabel="@string/bottom_sheet_behavior">-->
+<!--        <intent-->
+<!--            android:action="android.intent.action.VIEW"-->
+<!--            android:targetClass="com.example.turantpe.MainActivity"-->
+<!--            android:targetPackage="com.example.turantpe" />-->
+
+<!--    </shortcut>-->
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/send"
+        android:shortcutDisabledMessage="@string/app_name"
+        android:shortcutId="turantpeScanner"
+        android:shortcutLongLabel="@string/shorcutScan"
+        android:shortcutShortLabel="@string/shorcutScan">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.example.turantpe.ScannerActivity"
+            android:targetPackage="com.example.turantpe" />
+
+    </shortcut>
+
+</shortcuts>
